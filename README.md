@@ -17,7 +17,7 @@ The goal is to create a compact bracelet that allows users to control music play
 The device combines custom PCB design, embedded electronics, battery management, and Bluetooth communication into a single wearable device.
 
 **Submission Type:** Design Submission  
-**Project Status:** In Development 🚧
+**Project Status:** Digital Design Completed – Hardware Development Pending 🚧
 
 ## 💡 Why I Made This
 
@@ -29,11 +29,11 @@ I decided to design the entire electronic system myself, including the PCB, powe
 
 ## ✨ Features
 
-- **Bluetooth Connectivity:** Connects to Android devices using the ESP32-C3's Bluetooth capabilities.
+- **Bluetooth Connectivity:** Designed to connect to Android devices using the ESP32-C3's Bluetooth capabilities.
 - **Media Controls:** Dedicated physical buttons for music playback.
 - **Volume Control:** A rotary control for adjusting the volume.
 - **Rechargeable Battery:** Integrated Li-Po charging circuit.
-- **USB-C Charging:** Convenient charging through a USB-C connector.
+- **USB-C Charging:** Charging through a USB-C connector.
 - **Compact PCB:** Custom-designed electronics intended to fit inside a wearable enclosure.
 - **Standalone Operation:** Designed to work without a dedicated mobile application.
 
@@ -46,6 +46,8 @@ I decided to design the entire electronic system myself, including the PCB, powe
 </p>
 
 *3D model of the bracelet enclosure, including the physical controls and charging port.*
+
+**[🔗 View Full 3D Assembly on Onshape](https://cad.onshape.com/documents/3bd6b4cfeb2b41e224dd819f/w/d73a3a9d2469daf80b615cbf/e/bd991009cba7e1cd4ab621f9)**
 
 ### PCB Design
 
@@ -90,13 +92,28 @@ Some of the main design considerations include:
 - Keeping the ESP32-C3 antenna clear of surrounding components.
 - Designing the board to fit inside a wearable enclosure.
 
+### PCB Source Files
+
+The KiCad project files are included in this repository:
+
+- [KiCad Project](./music%20bracelet%20schem.kicad_pro)
+- [PCB Layout](./music%20bracelet%20schem.kicad_pcb)
+- [Electrical Schematic](./music%20bracelet%20schem.kicad_sch)
+- [PCB Project Settings](./music%20bracelet%20schem.kicad_prl)
+
+### Manufacturing Files
+
+The Gerber and drill files are packaged together for PCB manufacturing.
+
+**[📥 Download Gerber Files (ZIP)](./gerbers.zip)**
+
 ## 🧾 Bill of Materials (BOM)
 
 The Bill of Materials contains the electronic components used in the Music Bracelet project.
 
-It includes component information, quantities, and other relevant manufacturing details.
+It includes component information, quantities, and manufacturing details.
 
-**[📥 View Bill of Materials (CSV)](./music%20bracelet%20schem.csv)**
+**[📥 View Bill of Materials (CSV)](./BOM.csv)**
 
 ## 💻 Firmware
 
@@ -110,24 +127,50 @@ The firmware will run on the ESP32-C3 and handle:
 
 The firmware is currently under development.
 
+**[💻 View Firmware Source Code](./main.cpp)**
+
+## 🏗️ Mechanical Design
+
+The bracelet enclosure was designed as a custom 3D model to house the electronics and provide access to the physical controls.
+
+The mechanical design focuses on:
+
+- A compact wearable form factor.
+- Accessible physical buttons and volume control.
+- A USB-C charging port.
+- Proper space for the PCB and battery.
+
+### Mechanical Files
+
+- [Full 3D Assembly on Onshape](https://cad.onshape.com/documents/3bd6b4cfeb2b41e224dd819f/w/d73a3a9d2469daf80b615cbf/e/bd991009cba7e1cd4ab621f9)
+- [Bracelet Case – STEP](./bracelet%20case.step)
+- [Closed Case – STEP](./case%20closed.step)
+- [PCB 3D Model – STEP](./music%20bracelet%20schem.step)
+
 ## 🛠️ Tools & Technologies
 
 - **KiCad** – PCB design and schematic capture.
 - **ESP32-C3** – Main microcontroller.
 - **Embedded C/C++** – Firmware development.
-- **3D CAD Software** – Mechanical design and enclosure development.
+- **Onshape** – Mechanical design and 3D modeling.
+- **STEP** – 3D model exchange and manufacturing.
 
 ## 🚧 Development Roadmap
 
-1. Complete schematic design.
-2. Finish PCB routing.
-3. Finalize mechanical design and 3D assembly.
-4. Generate manufacturing files (Gerbers).
-5. Finalize the Bill of Materials.
-6. Manufacture and assemble the PCB.
-7. Develop the firmware.
-8. Implement and test Bluetooth media controls.
-9. Complete final assembly and testing.
+### Digital Design
+
+The initial digital design includes the PCB, electrical schematic, component selection, BOM, and mechanical enclosure.
+
+### Next Steps
+
+1. Manufacture the custom PCB.
+2. Assemble the electronic components.
+3. Integrate the PCB and battery into the enclosure.
+4. Develop and upload the firmware.
+5. Implement Bluetooth media controls.
+6. Test charging and battery management.
+7. Test the complete system.
+8. Finalize the bracelet assembly.
 
 ## 🎯 Future Plans
 
