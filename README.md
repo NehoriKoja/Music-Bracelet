@@ -97,7 +97,7 @@ Each component includes its quantity, manufacturer or supplier, and purchase lin
 | Push Buttons | 3 | [Link](ADD_LINK) |
 | Li-Po Battery | 1 | [Link](ADD_LINK) |
 
-For the complete component list, see [`BOM.csv`](BOM.csv).
+For the complete component list, see [`BOM.csv`]().
 
 ## 💻 Firmware
 
