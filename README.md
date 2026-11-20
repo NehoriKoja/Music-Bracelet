@@ -31,7 +31,7 @@ I decided to design the entire electronic system myself, including the PCB, powe
 
 - **Bluetooth Connectivity:** Connects to Android devices using the ESP32-C3's Bluetooth capabilities.
 - **Media Controls:** Dedicated physical buttons for music playback.
-- **Volume Control:** A rotary control for adjusting music volume.
+- **Volume Control:** A rotary control for adjusting the volume.
 - **Rechargeable Battery:** Integrated Li-Po charging circuit.
 - **USB-C Charging:** Convenient charging through a USB-C connector.
 - **Compact PCB:** Custom-designed electronics intended to fit inside a wearable enclosure.
@@ -41,18 +41,27 @@ I decided to design the entire electronic system myself, including the PCB, powe
 
 ### 3D Assembly
 
-<img width="447" height="364" alt="image" src="https://github.com/user-attachments/assets/c6181862-1431-4478-9f05-42aba1a644bc" />
-#3D model of the bracelet enclosure, including the physical controls and charging port.
+<p align="center">
+  <img width="447" src="https://github.com/user-attachments/assets/c6181862-1431-4478-9f05-42aba1a644bc" alt="3D model of the Music Bracelet enclosure">
+</p>
+
+*3D model of the bracelet enclosure, including the physical controls and charging port.*
 
 ### PCB Design
 
-<img width="317" height="200" alt="image" src="https://github.com/user-attachments/assets/52f6af5a-e1ee-4ac8-98a2-8f6e6eb5a6da" />
-#Custom PCB layout designed in KiCad.
+<p align="center">
+  <img width="317" src="https://github.com/user-attachments/assets/52f6af5a-e1ee-4ac8-98a2-8f6e6eb5a6da" alt="3D render of the custom PCB">
+</p>
+
+*3D render of the custom PCB designed in KiCad.*
 
 ### Schematic
 
-<img width="566" height="386" alt="image" src="https://github.com/user-attachments/assets/81b885b1-fe65-4256-a202-5254d5a17eef" />
-#Electrical schematic showing the ESP32-C3 connections and battery charging circuit.
+<p align="center">
+  <img width="566" src="https://github.com/user-attachments/assets/81b885b1-fe65-4256-a202-5254d5a17eef" alt="Music Bracelet electrical schematic">
+</p>
+
+*Electrical schematic showing the ESP32-C3 connections and battery charging circuit.*
 
 ## 🔌 Electronics
 
@@ -83,21 +92,11 @@ Some of the main design considerations include:
 
 ## 🧾 Bill of Materials (BOM)
 
-The Bill of Materials contains the components required to manufacture and assemble the bracelet.
+The Bill of Materials contains the electronic components used in the Music Bracelet project.
 
-Each component includes its quantity, manufacturer or supplier, and purchase link.
+It includes component information, quantities, and other relevant manufacturing details.
 
-| Component | Quantity | Supplier |
-|---|---:|---|
-| ESP32-C3-MINI-1 | 1 | [Link](ADD_LINK) |
-| MCP73871 | 1 | [Link](ADD_LINK) |
-| AP2112K | 1 | [Link](ADD_LINK) |
-| USB-C Connector | 1 | [Link](ADD_LINK) |
-| Rotary Encoder | 1 | [Link](ADD_LINK) |
-| Push Buttons | 3 | [Link](ADD_LINK) |
-| Li-Po Battery | 1 | [Link](ADD_LINK) |
-
-For the complete component list, see [`BOM.csv`]().
+**[📥 View Bill of Materials (CSV)](./music%20bracelet%20schem.csv)**
 
 ## 💻 Firmware
 
@@ -114,7 +113,7 @@ The firmware is currently under development.
 ## 🛠️ Tools & Technologies
 
 - **KiCad** – PCB design and schematic capture.
-- **ESP32-C3** – Microcontroller.
+- **ESP32-C3** – Main microcontroller.
 - **Embedded C/C++** – Firmware development.
 - **3D CAD Software** – Mechanical design and enclosure development.
 
@@ -138,4 +137,6 @@ The final goal is to have a fully functional wearable device that can connect to
 
 ---
 
-**Designed and developed by me.**
+<p align="center">
+  **Designed and developed by me.** 🎵
+</p>
