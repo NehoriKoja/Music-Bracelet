@@ -8,11 +8,14 @@
 "6.8k - Resistor",1,0.004,0.004,https://www.lcsc.com/product-detail/C325848.html,
 "15k - Resistors",2,0.021,0.042,https://www.lcsc.com/product-detail/C844819.html,
 "10k - Resistors",3,0.0143,0.0429,https://www.lcsc.com/product-detail/C844937.html,
-"KH-SIQ-02FVS3 - Switch",1,3,3,https://www.lcsc.com/product-detail/C42396850.html,
-"Nidec CAS-120A1 - Power switch",1,,,https://www.lcsc.com/product-detail/C22401620.html,
+"KH-SIQ-02FVS3 - Rotary encoder switch",1,3,3,https://www.lcsc.com/product-detail/C42396850.html,Yes
+"Nidec CAS-120A1 - Power switch",1,,,https://www.lcsc.com/product-detail/C22401620.html,Yes
 "USBLC6-2P6 - USB ESD protection",1,0.1971,0.1971,https://www.lcsc.com/product-detail/C15999.html,
 "AP2112K-3.3 - Voltage regulator",1,0.1091,0.1091,https://www.lcsc.com/product-detail/C51118.html,
 "MCP73871 - LiPo charging and power management IC",1,3.4854,3.4854,https://www.lcsc.com/product-detail/C144351.html,
 "ESP32-C3-MINI-1 - Main microcontroller",1,3.0047,3.0047,https://www.lcsc.com/product-detail/C2838502.html,
 "USB-C 16-pin connector",1,0.0805,0.0805,https://www.lcsc.com/product-detail/C2988369.html,
-"Li-Po battery - 3.7V 300mAh 1.11Wh",1,,,,
+"Li-Po battery - 3.7V 300mAh 1.11Wh",1,,,,Yes
+"Custom PCB - Music Bracelet PCB fabrication",5,1.04,5.20,,N/A
+"PCBA - Both-side assembly service",2,79.565,159.13,,N/A
+"JLCPCB Shipping",1,104.03,104.03,,N/A
